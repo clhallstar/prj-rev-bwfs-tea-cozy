@@ -1,0 +1,145 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+.header {
+  display: inline-flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  justify-content: space-between;
+}
+
+a {
+  color: inherit;
+}
+
+.logo {
+  margin-left: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: flex-start;
+  margin-top: 9.5px;
+  margin-bottom: 9.5px;
+  height: 50px;
+}
+
+.img {
+  max-height: 100%;
+}
+
+.nav {
+  text-decoration: underline;
+  display: inline-flex;
+  justify-content: center;
+  margin-right: 10px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.nav span {
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin: 0px auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  align-items: center;
+}
+.statement {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+}
+
+#teamonth {
+  display: flex-block;
+  height: auto;
+  width: 1000px;
+  justify-content: center;
+  flex: 1, 1, auto;
+  margin: 0px auto;
+}
+
+.body {
+  display: flex-block;
+  height: auto;
+  justify-content: center;
+  width: 100%;
+}
+
+.food {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.foodtotal {
+  display: block;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin: 5px 5px;
+  align-content: flex-start;
+}
+
+.foodimage {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#locations {
+  display: flex;
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.locationbox {
+  width: 300px;
+  min-width: 300px;
+  display: block;
+  align-content: space-around;
+  background: black;
+  text-align: center;
+  margin-right: 40px;
+}
+
+#3 {
+  opacity: 1;
+}
+
+.contact {
+  height: 200px;
+  display: block;
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
